@@ -1,0 +1,13 @@
+Name: Gian Delacruz
+
+Questions:
+1) When the jobs all have around the same burst times. 
+2) When the jobs all have around the same burst time and arrive at regular
+   intervals that are a little less than the quantum.
+3) As the average job length increases the response time increases. The 
+   simulator can demonstrate this trend by comparing the average response
+   times for an input file with shorter average job lengths and an input
+   file with longer average job lengths.
+4) As quantum lengths increase the response time increases. Given a big
+   enough quantum the worst case response time given N jobs is 
+   (N * average burst time).
