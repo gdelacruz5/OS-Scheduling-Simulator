@@ -1,5 +1,7 @@
 Name: Gian Delacruz
 
+Simulates different OS scheduling algorithms. Specifically, shortest-remaining job next, first-in first-out, and round-robin algorithms are simulated.
+
 Questions:
 1) When the jobs all have around the same burst times. 
 2) When the jobs all have around the same burst time and arrive at regular
