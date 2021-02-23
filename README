@@ -2,6 +2,12 @@ Name: Gian Delacruz
 
 Simulates different OS scheduling algorithms. Specifically, shortest-remaining job next, first-in first-out, and round-robin algorithms are simulated.
 
+Usage:
+schedSim <job-file.txt> -p <ALGORITHM> -q <QUANTUM>
+
+    • job-file.txt contains a list of job run and arrival times, given as a pair of integers, each on their own line. Note: There should be no restrictions on how jobs appear in job-file.txt; e.g. jobs may be written out of order and may arrive at the same time1. Job files are formatted as:
+8 0
+
 Questions:
 1) When the jobs all have around the same burst times. 
 2) When the jobs all have around the same burst time and arrive at regular
