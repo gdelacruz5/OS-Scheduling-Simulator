@@ -1,6 +1,6 @@
 Name: Gian Delacruz
 
-Simulates different OS scheduling algorithms. Specifically, shortest-remaining job next, first-in first-out, and round-robin algorithms are simulated.
+Code sample submission for Green Hills Software. Sorry if this is a bit big but it's one of few code samples I have available. This is from a school project for my operating systems class. The program simulates different OS scheduling algorithms. Specifically, shortest-remaining job next, first-in first-out, and round-robin algorithms are simulated. The answers below are for questions asked by my professor.
 
 Usage:
 schedSim <job-file.txt> -p <ALGORITHM> -q <QUANTUM>
